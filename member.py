@@ -10,7 +10,7 @@ class LibraryMember():
         return self.__barcode
     
 
-class Member(LibraryMember,Library):
+class Member(LibraryMember):
     __MAX_BOOKS_ISSUED = 5
     __MAX_DAYS_ALLOWED = 10
 
