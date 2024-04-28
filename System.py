@@ -3,7 +3,7 @@ from member import Member
 from Library import Library
 from Book import LibraryException
 
-class System(Library,Member):
+class System():
     def __init__(self):
         super().__init__() 
         self.__members = []
