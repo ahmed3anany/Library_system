@@ -1,6 +1,6 @@
 from Book import Book,BookAlreadyCheckedOutException,BookAlreadyReservedException,BookNotCheckedOutException,LibraryException
 
-class Library(Book):
+class Library():
     def __init__(self):
         self.__catalog = []
         self.__checked_out_books =[]
